@@ -13,7 +13,7 @@ app.use(cors(
     {
         origin: [
             "http://localhost:5173",
-            "https://scholarship-management-one.vercel.app/",
+            "https://scholarship-management-one.vercel.app",
             "https://scholarship-platform-2f772.web.app",
         ],
         methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
